@@ -19,11 +19,19 @@ namespace WorkerService_WebsiteStatus
             _logger = logger;
         }
 
+        public override Task StartAsync(CancellationToken cancellationToken)
+        {
+            client = new HttpClient();
+            return base.StartAsync(cancellationToken);
+        }
+
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
             {
                 //_logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+
+                var result = await client.GetAsync("https://www.skangtown.com");
 
                 //Await one second
                 await Task.Delay(5000, stoppingToken);
