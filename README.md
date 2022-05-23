@@ -1,2 +1,20 @@
 # WorkerService_WebsiteStatusApp
  
+Need to install Nuget Package:  1. Serilog. AspNetCore 
+                                                         2. Serilog.Sinks.File  (Log events to text files in plain or JSON format)
+					   3. Microsoft.Extensions.Hosting.WindowsServices
+					
+					
+Deploy a window service : 1.  Click 'Publish' 
+				     2. Deploy to a folder
+				
+
+	- To Install a window service
+Open Powershell as admin : 1. sc.exe  create WebsiteStatus binpath= c:\temp\workerservice\websiteStatus.exe(File Name) start = auto
+				        2. Hit Enter
+				        3. Notice that a service shows up 
+				
+    -  To uninstall a window service 
+	1. Stop a Service First 
+   2. sc.exe delete WebsiteStatus (Service Name)
+   3. Hit Enter![image](https://user-images.githubusercontent.com/5438217/169858042-e63fa4c2-7617-4f45-8b27-864fd948bec0.png)
