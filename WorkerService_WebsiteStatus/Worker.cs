@@ -28,6 +28,7 @@ namespace WorkerService_WebsiteStatus
         public override Task StopAsync(CancellationToken cancellationToken)
         {
             client.Dispose();
+            _logger.LogInformation("The service has been stopped.");
             return base.StopAsync(cancellationToken);
 
         }
