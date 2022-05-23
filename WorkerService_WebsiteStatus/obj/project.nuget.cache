@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fuBZB7BwWzV0MoH5akWKTykNKAvbSg/oho9WKVuvmyIxsNuheNHb/aFldecXBm71CDEyZGGsFW/R++/3j+kmCQ==",
+  "dgSpecHash": "FGv56wIiJzBFKuXBjImIvOip1sKm//BBMvXQMjSQk8Mcr/ZR+3Jq748QCpC6Vq6XDCnj84aYYOo768yDcB5rCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\skang\\OneDrive - California Secretary of State\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj",
+  "projectFilePath": "C:\\Users\\skang\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.25\\microsoft.extensions.configuration.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.25\\microsoft.extensions.configuration.abstractions.3.1.25.nupkg.sha512",
@@ -14,11 +14,13 @@
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\3.1.25\\microsoft.extensions.configuration.usersecrets.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.25\\microsoft.extensions.dependencyinjection.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.25\\microsoft.extensions.dependencyinjection.abstractions.3.1.25.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.0.0\\microsoft.extensions.dependencymodel.3.0.0.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.25\\microsoft.extensions.fileproviders.abstractions.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.25\\microsoft.extensions.fileproviders.physical.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.25\\microsoft.extensions.filesystemglobbing.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.hosting\\3.1.25\\microsoft.extensions.hosting.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.25\\microsoft.extensions.hosting.abstractions.3.1.25.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.hosting.windowsservices\\3.1.25\\microsoft.extensions.hosting.windowsservices.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.logging\\3.1.25\\microsoft.extensions.logging.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.25\\microsoft.extensions.logging.abstractions.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.25\\microsoft.extensions.logging.configuration.3.1.25.nupkg.sha512",
@@ -31,9 +33,20 @@
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.25\\microsoft.extensions.primitives.3.1.25.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog.aspnetcore\\5.0.0\\serilog.aspnetcore.5.0.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog.extensions.hosting\\4.2.0\\serilog.extensions.hosting.4.2.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog.extensions.logging\\3.1.0\\serilog.extensions.logging.3.1.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog.settings.configuration\\3.3.0\\serilog.settings.configuration.3.3.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
     "C:\\Users\\skang\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\skang\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\skang\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\system.serviceprocess.servicecontroller\\4.7.0\\system.serviceprocess.servicecontroller.4.7.0.nupkg.sha512",
+    "C:\\Users\\skang\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skang\\OneDrive - California Secretary of State\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj": {}
+    "C:\\Users\\skang\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skang\\OneDrive - California Secretary of State\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj": {
+    "C:\\Users\\skang\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skang\\OneDrive - California Secretary of State\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj",
+        "projectUniqueName": "C:\\Users\\skang\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj",
         "projectName": "WorkerService_WebsiteStatus",
-        "projectPath": "C:\\Users\\skang\\OneDrive - California Secretary of State\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj",
+        "projectPath": "C:\\Users\\skang\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\WorkerService_WebsiteStatus.csproj",
         "packagesPath": "C:\\Users\\skang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skang\\OneDrive - California Secretary of State\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\obj\\",
+        "outputPath": "C:\\Users\\skang\\Documents\\GitHub\\WorkerService_WebsiteStatusApp\\WorkerService_WebsiteStatus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\skang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://sosnuget.azurewebsites.net/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -44,6 +43,18 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[3.1.25, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -61,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

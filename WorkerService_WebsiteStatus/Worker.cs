@@ -25,6 +25,13 @@ namespace WorkerService_WebsiteStatus
             return base.StartAsync(cancellationToken);
         }
 
+        public override Task StopAsync(CancellationToken cancellationToken)
+        {
+            client.Dispose();
+            return base.StopAsync(cancellationToken);
+
+        }
+
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
@@ -33,7 +40,16 @@ namespace WorkerService_WebsiteStatus
 
                 var result = await client.GetAsync("https://www.skangtown.com");
 
-                //Await one second
+                if (result.IsSuccessStatusCode)
+                {
+                    _logger.LogInformation("The website is up. Status code {StatusCode}", result.StatusCode);
+                }
+                else
+                {
+                    _logger.LogError("The website is down. Status code {StatusCode}", result.StatusCode);
+                }
+
+                //Await five second
                 await Task.Delay(5000, stoppingToken);
             }
         }

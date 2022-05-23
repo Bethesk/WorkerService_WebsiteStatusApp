@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-WorkerService_WebsiteStatus-17887C44-53E4-45D0-A318-3AF0F1728859")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkerService_WebsiteStatus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
