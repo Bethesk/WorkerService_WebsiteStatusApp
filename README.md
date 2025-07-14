@@ -15,7 +15,7 @@ Run the following command 1. sc.exe  create WebsiteStatus binpath= c:\temp\worke
 				        2. Hit Enter
 				        3. Notice that a service shows up 
 				
-  - Uninstall a window service 
+- Uninstall a window service 
 	1. Stop the service
    2. sc.exe delete WebsiteStatus (Service Name)
-   3. Hit Enter![image](https://user-images.githubusercontent.com/5438217/169858042-e63fa4c2-7617-4f45-8b27-864fd948bec0.png)
+   3. Hit Enter
