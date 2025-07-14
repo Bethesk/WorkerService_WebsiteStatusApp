@@ -1,12 +1,14 @@
 # WorkerService_WebsiteStatusApp
  
-- Install Nuget Package:  1. Serilog. AspNetCore 
-                                                         2. Serilog.Sinks.File  (Log events to text files in plain or JSON format)
-					   3. Microsoft.Extensions.Hosting.WindowsServices
+- Install Nuget Package:
+  1. Serilog. AspNetCore
+  2. Serilog.Sinks.File  (Log events to text files in plain or JSON format)
+  3. Microsoft.Extensions.Hosting.WindowsServices
 					
 					
-- Deploy a window service : 1.  Click 'Publish' 
-				     2. Deploy to a folder
+- Deploy a window service :
+  1. Click 'Publish'
+  2. Deploy to a folder
 				
 
 - Install a window service
