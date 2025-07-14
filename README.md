@@ -13,11 +13,11 @@
 				
 
 - Installing the Windows Service
-1. Open Powershell as admin
-2. Run the following command
-   sc.exe  create WebsiteStatus binpath= c:\temp\workerservice\websiteStatus.exe(File Name) start = auto
-3. Hit Enter
-4. Confirm that the service appears in the Services list
+	1. Open Powershell as admin
+	2. Run the following command
+  	   sc.exe  create WebsiteStatus binpath= c:\temp\workerservice\websiteStatus.exe(File Name) start = auto
+	3. Hit Enter
+	4. Confirm that the service appears in the Services list
 				
 - Uninstalling the Window Service
 1. Open Powershell as admin
