@@ -20,9 +20,9 @@
 4. Confirm that the service appears in the Services list
 				
 - Uninstalling the Window Service
-  1. Open Powershell as admin
-  2. Stop the service
-      sc.exe stop WebsiteStatus
-   3. Delete the service
-      sc.exe delete WebsiteStatus
+1. Open Powershell as admin
+2. Stop the service
+   sc.exe stop WebsiteStatus
+3. Delete the service
+   sc.exe delete WebsiteStatus
    
